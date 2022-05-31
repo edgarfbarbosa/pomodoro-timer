@@ -1,0 +1,42 @@
+.main__container {
+    display: flex;
+    height: calc(100vh - 8rem);
+    justify-content: center;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div__start {
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12rem;
+    justify-content: center;
+}
+
+.div__shortbreak {
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8rem;
+    justify-content: center;
+}
+
+.div__btn--container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div__btn {
+    background: #FFF;
+    border: 1px solid #F0F0F0;
+    cursor: pointer;
+    height: 2rem;
+    width: 8rem;
+}
+
+.div__btn:active {
+    transform: translateY(2px);
+}

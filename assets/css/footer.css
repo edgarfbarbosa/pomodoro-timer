@@ -1,0 +1,6 @@
+.footer__container {
+    display: flex;
+    font-family: 'Italianno', cursive;
+    font-size: 2rem;
+    justify-content: center;
+}
